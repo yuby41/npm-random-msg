@@ -1,21 +1,28 @@
 {
-    "name": "mensajes-aleatoriositacos",
-    "version": "1.0.0",
-    "description": "I don't know what to write for the first commit",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "javascript",
-        "node",
-        "npm"
-    ],
-    "author": "yualbe Luis <lois21us@gmail.com>",
-    "license": "MIT",
-    "bin": {
-        "random-msg": "../bin/global.js"
-    },
-    "preferGlobal": true
-
+  "name": "mensajes-aleatoriositacos",
+  "version": "1.0.0",
+  "description": "I don't know what to write for the first commit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
+  "author": "yualbe Luis <lois21us@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "random-msg": "bin/global.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuby41/npm-random-msg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuby41/npm-random-msg/issues"
+  },
+  "homepage": "https://github.com/yuby41/npm-random-msg#readme"
 }
